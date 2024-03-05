@@ -1,38 +1,67 @@
+/* App.css */
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+nav ul {
+  list-style: none;
+  padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+nav ul li {
+  display: inline;
+  margin-right: 20px;
 }
 
-.App-link {
-  color: #61dafb;
+main {
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+section {
+  margin-bottom: 40px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+/* App.css */
+
+/* Hover effect for navigation links */
+nav ul li a:hover {
+  color: #ffc107; /* Yellow */
+}
+
+/* Hover effect for project links */
+.project a:hover {
+  color: #ffc107; /* Yellow */
+}
+
+/* Additional hover effect (e.g., background color change) for projects */
+.project:hover {
+  background-color: #f8f9fa; /* Light grey */
+}
+
+/* App.css */
+
+.profile-photo {
+  text-align: center;
+}
+
+.profile-photo img {
+  width: 200px;
+  height: auto;
+  border-radius: 50%;
 }
